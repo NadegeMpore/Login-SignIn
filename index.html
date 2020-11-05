@@ -10,6 +10,22 @@
 
 </head>
 <body>
+    <div id="google_translate_element"></div>
+    <script>
+
+        function googleTranslateElementInit() {
+
+            new google.translate.TranslateElement({
+
+                pageLanguage: 'en'
+
+            }, 'google_translate_element');
+
+        }
+
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
     <div class="wrap">
         <h3>
             JAMZ
@@ -34,22 +50,7 @@
             First time here? <a href="https://distracted-jones-06b85b.netlify.app" class="create-account"><strong> Create an account </strong></a>
         </p>
 
-        <div id="google_translate_element"></div>
-        <script>
-
-            function googleTranslateElementInit() {
-
-                new google.translate.TranslateElement({
-
-                    pageLanguage: 'en'
-
-                }, 'google_translate_element');
-
-            }
-
-        </script>
-        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+        
     </div>
     
 </body>
